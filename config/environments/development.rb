@@ -28,7 +28,7 @@ Rails.application.configure do
 
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :test
-  host = 's3786863radtutorials.herokuapp.com'
+  # host = 's3786863radtutorials.herokuapp.com'
   host = 'localhost:3000'
   # Use this on this cloud IDE
   # config.action_mailer.default_url_options = { host: host, protocol: 'https' }
